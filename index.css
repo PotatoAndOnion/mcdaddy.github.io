@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Barlow Condensed';
 }
 a{
     text-decoration: none;
@@ -25,7 +25,7 @@ a{
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
-    margin-left: 25px;
+    margin-left: 80px;
 }
 .nav-bar .page a{
     color: white;
@@ -54,8 +54,6 @@ a{
     display: flex;
     justify-content: left;
 }
-
-
 
 
 
@@ -190,10 +188,13 @@ a{
     margin-top: 50px;
 }
 
-.banner{
-    border-radius: 5px;
-    max-width: 100vw;
+.banner {
+    max-width: 95vw;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
     max-height: 400px;
+    background-image: linear-gradient(to bottom right,darkblue, black);
 }
 .slides{
     margin-top: 200px;
@@ -212,3 +213,12 @@ a{
     text-align: center;
     font-size: 12px;
 }
+.banner h1{
+    color: white;
+    font-size: 60px;
+    margin: 50px 60px;
+    text-align: center;
+}
+
+
+
