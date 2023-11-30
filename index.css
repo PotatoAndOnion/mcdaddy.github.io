@@ -105,7 +105,9 @@ a{
 .mySlides:hover{
     cursor: pointer;
 }
-
+.mySlides{
+    border-radius: 3px;
+}
 
 
 
@@ -117,13 +119,18 @@ a{
 
 
 
-
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
 .card{
     display: inline-block;
     height: 385px;
     width: 236px;
-    margin: 0px 20px;
     margin-top: 50px;
+    margin: 0px 20px 50px;
     font-family: sans-serif;
     border-style: solid;
     border-width: 1px;
@@ -183,6 +190,7 @@ a{
 .footwear{
     text-align: center;
     margin-top: 180px;
+    margin-bottom: 100px;
 }
 .title{
     margin-top: 50px;
@@ -220,5 +228,6 @@ a{
     text-align: center;
 }
 
-
-
+.tees{
+    margin-top: 200px;
+}
