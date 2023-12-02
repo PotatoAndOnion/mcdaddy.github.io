@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Barlow Condensed';
 }
 body{
     height: 70vh;
@@ -15,7 +15,6 @@ body{
 }
 
 
-
 .nav-bar{
     background-color: rgb(35, 35, 35);
     color: white;
@@ -25,6 +24,7 @@ body{
     grid-row-gap: 1em;
     padding: 14px 64px;
     margin-bottom: 36px;
+    z-index: 1;
 }
 .nav-bar .page{
     display: flex;
@@ -32,15 +32,14 @@ body{
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
-    margin-left: 25px;
+    margin-left: 80px;
 }
 .nav-bar .page a{
     color: white;
-    text-decoration: none;
 }
 .nav-bar .icon{
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: center;
     margin-right: -12px;
 }
@@ -54,9 +53,13 @@ body{
     color: white;
     padding-left: 10px;
 }
-.logo a{
+.nav-bar .logo a{
     color: white;
     text-decoration: none;
+}
+.nav-bar .logo{
+    display: flex;
+    justify-content: left;
 }
 
 
@@ -183,7 +186,7 @@ input:focus ~ label, input:valid ~ label {
 .signin-form a{
     text-decoration: none;
     color: white;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 
