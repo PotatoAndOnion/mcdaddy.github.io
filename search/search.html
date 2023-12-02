@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/b7457f805d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="search.css">
     <title>Wear Lab</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
                 </a>
             </div>
             <div class="page">
-                <a href="#">Footwear</a>
+                <a href="../products/footwear.html">Footwear</a>
                 <a href="#">Clothing</a>
                 <a href="#">Accessories</a>
                 <a href="#">Sale</a>
@@ -35,9 +35,13 @@
             </div>
         </div>
         <div class="content">
-            <div id="products"></div>
+            <div class="search-box">
+                <input type="text" id="search-id" placeholder="Enter your search term">
+                <button onclick="action()" id="search-btn">Search</button>
+            </div>
+            <div class="results"></div>
         </div>
     </div>
-    <script src="a.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
