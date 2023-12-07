@@ -78,3 +78,64 @@ a{
     transform: scaleX(1);
     transform-origin: left;
 }
+
+
+
+  
+#products {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 8em 0;
+}
+  
+.card {
+    background-color: #ffffff;
+    width: 18em;
+    max-width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    text-align: center;
+}
+  
+.image-container {
+    text-align: center;
+}
+  
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+}
+  
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #110f29;
+}
+  
+.card-container h5 {
+    font-weight: 500;
+}
+  
+.hide {
+    display: none;
+}
+  
+@media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      height: 10em;
+    }
+    
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+    }
+  }

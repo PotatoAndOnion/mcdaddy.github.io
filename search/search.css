@@ -78,3 +78,23 @@ a{
     transform: scaleX(1);
     transform-origin: left;
 }
+.brands img{
+    width: 200px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjust this value to change the spacing between logos */
+    margin-top: 7em; /* Optional: Add margin top for spacing */
+}
+
+.brands a {
+    display: flex;
+    align-items: center;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 50px;
+}
