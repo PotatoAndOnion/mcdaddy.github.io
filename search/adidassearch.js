@@ -1,11 +1,11 @@
-import { nike_data } from '../data/nikedata.js';
+import { adidas_data } from '../data/adidasdata.js';
 let button = document.getElementById('button');
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
     const inputData = document.getElementById('searchInput').value;
   
-    const products = nike_data.response.results;
+    const products = adidas_data.response.results;
     const searchResults = searchByProductName(products, inputData);
   
     displayResults(searchResults);

@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/b7457f805d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="search.css">
-    <script type="module" src="nikesearch.js"></script>
+    
     <script type="module" src="../data/nikedata.js"></script>
     <title>Wear Lab</title>
 </head>
@@ -38,8 +38,13 @@
         </div>
         <div class="content">
             <input type="text" id="searchInput" placeholder="Search...">
-            <button id="btn">Search</button>
-            <div id="searchResults"></div>
+            <button id="button" onclick="display()">search</button>
+            <div id="results"></div>
         </div>
+        <script type="module" src="nikesearch.js"></script>
+        <script>
+           
+        </script>
     </div>
+</body>
 </html>

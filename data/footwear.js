@@ -216,29 +216,26 @@ function openModal(product) {
     modal.style.display = "block";
 }
 
-
-// Function to close the modal
 function closeModal() {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
 }
 
-// Add event listeners to each product card
+
 const productCards = document.querySelectorAll(".card");
 productCards.forEach((card, index) => {
     card.addEventListener("click", () => {
-        const product = products.data[index]; // Get product details from the products object
+        const product = products.data[index];
         openModal(product);
     });
 });
 
-// Close the modal when the close button is clicked
+
 const closeButton = document.querySelector(".close");
 closeButton.addEventListener("click", () => {
     closeModal();
 });
 
-// Close the modal when clicking outside the modal content
 window.addEventListener("click", event => {
     const modal = document.getElementById("modal");
     if (event.target === modal) {
