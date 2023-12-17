@@ -37,10 +37,12 @@ function displayResults(searchResults) {
       console.log(result.value)
       const productDiv = document.createElement('div');
       productDiv.innerHTML = `
+      <div class="product-card">
         <p>Name: ${result.value}</p>
         <p>Retail Price: ${retail_price_cents}</p>
         <p>Release Date: ${release_date}</p>
         <img src="${image_url}" alt="${value}">
+      </div>
       `;
       resultsContainer.appendChild(productDiv);
     });
