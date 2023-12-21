@@ -17,10 +17,10 @@
                 </a>
             </div>
             <div class="page">
-                <a href="#">Footwear</a>
-                <a href="#">Clothing</a>
+                <a href="footwear.html">Footwear</a>
+                <a href="clothing.html">Clothing</a>
                 <a href="#">Accessories</a>
-                <a href="#">Sale</a>
+                <a href="sale.html">Sale</a>
             </div>
             <div class="icon">
                 <a onclick="">
@@ -36,8 +36,20 @@
         </div>
         <div class="content">
             <div id="products"></div>
+            <div id="modal" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="" alt="Product Image" class="modal-product-image">
+                    <h5 class="modal-product-name"></h5>
+                    <h6 class="modal-product-price"></h6>
+                    <label for="sizeSelect">Select Size:</label>
+                    <select id="sizeSelect" class="modal-product-sizes"></select>
+                    <button class="purchase-button">Purchase</button>
+                </div>
+            </div>
+            
         </div>
     </div>
-    <script src="a.js"></script>
+    <script src="../data/footwear.js"></script>
 </body>
 </html>
