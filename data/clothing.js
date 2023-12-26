@@ -1,148 +1,148 @@
 let products = {
     data : [
         {
-            productName : "Air Jordan 1",
-            price : "$250",
-            image : "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 1 Low",
-            price : "$850",
-            image : "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Reverse-Mocha_V2-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 3",
-            price : "$300",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/04/air-jordan-3-retro-fire-red-2022_ef39f60eefe9423e874a22c076cf4d86.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 4",
-            price : "$250",
-            image : "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 5",
-            price : "$220",
-            image : "https://images.stockx.com/images/Air-Jordan-5-Retro-Fire-Red-2013-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1607663937",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Nike Dunk Low",
-            price : "$80",
-            image : "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 7",
-            price : "$120",
-            image : "https://images.stockx.com/images/Air-Jordan-7-Retro-Pantone-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1607662998",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Kobe 6 Protro",
-            price : "$265",
-            image : "https://images.stockx.com/images/Nike-Kobe-6-Protro-Reverse-Grinch-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Nike Dunk Low",
-            price : "$190",
-            image : "https://images.stockx.com/images/Nike-Dunk-Low-Retro-PRM-Kyler-Murray-Be-1-of-One-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Crocs Classic",
+            productName : "Supreme Corteiz Rules The World Tee",
             price : "$90",
-            image : "https://images.stockx.com/images/Crocs-Classic-Clog-Lightning-McQueen-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Supreme-Corteiz-Rule-The-World-Tee-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Air Jordan 11",
-            price : "$177",
-            image : "https://images.stockx.com/images/Air-Jordan-11-Retro-Cherry-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1669100668",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Denim Tears x Offset Set It Off #2 T-shirt",
+            price : "$100",
+            image : "https://images.stockx.com/images/Denim-Tears-x-Offset-Set-It-Off-2-T-shirt-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Air Jordan 12",
-            price : "$150",
-            image : "https://images.stockx.com/360/Air-Jordan-12-Retro-Royalty-Taxi/Images/Air-Jordan-12-Retro-Royalty-Taxi/Lv2/img01.jpg?fm=jpg&auto=compress&w=480&dpr=2&updated_at=1635744340&h=320&q=60",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Supreme Box Logo Tee",
+            price : "$75",
+            image : "https://images.stockx.com/images/Supreme-Box-Logo-Tee-FW23-White.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Air Jordan 13",
-            price : "$175",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/08/Air-Jordan-13-Retro-Wolf-Grey-1.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Nike Big Swoosh Reversible Boa Jacket",
+            price : "$70",
+            image : "https://images.stockx.com/images/Nike-Big-Swoosh-Reversible-Boa-Jacket-Asia-Sizing-Black-White.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Crocs Classic",
+            productName : "Nike Sportswear Tech Fleece Joggers",
+            price : "$45",
+            image : "https://images.stockx.com/images/Nike-Tech-Fleece-Joggers-Black-v2.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Fear of God Essentials Sweatpants",
             price : "$80",
-            image : "https://images.stockx.com/images/Crocs-Classic-Clog-DreamWorks-Shrek-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Fear-of-God-Essentials-Sweatpants-SS22-Light-Oatmeal.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Air Jordan 15",
+            productName : "Anti Social Social Club Cancelled T-Shirt",
+            price : "$70",
+            image : "https://images.stockx.com/images/Anti-Social-Social-Club-Cancelled-T-Shirt-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Nike Sportswear Kids' Tech Fleece Full-Zip Hoodie",
             price : "$80",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/04/821518_01.jpg_ae1195c0ee9b40f691b69a8ef867b328.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Nike-Sportswear-Kids-Tech-Fleece-Full-Zip-Hoodie-University-Red-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "adidas Campus 00s",
+            productName : "Stussy x Nike Nylon Short",
+            price : "$50",
+            image : "https://images.stockx.com/images/Stussy-x-Nike-Nylon-Short-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Travis Scott x McDonald's Sesame II T-Shirt",
+            price : "$45",
+            image : "https://images.stockx.com/images/Travis-Scott-x-McDonalds-Sesame-II-T-Shirt-Black-Red.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Comme des Garcons Play Red Half Heart T-shirt",
+            price : "$60",
+            image : "https://images.stockx.com/images/Comme-des-Garcons-PLAY-Red-Half-Heart-T-shirt-White.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "KAWS x Uniqlo UT Short Sleeve Artbook Cover T-shirt",
+            price : "$22",
+            image : "https://images.stockx.com/images/KAWS-x-Uniqlo-UT-Short-Sleeve-Artbook-Cover-T-shirt-White.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Nike Sportswear Tech Fleece Joggers",
+            price : "$50",
+            image : "https://images.stockx.com/images/Nike-Sportswear-Tech-Fleece-Joggers-Black-Dark-Beetroot-Phantom-v3.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Fear of God Essentials Sweatshort",
+            price : "$30",
+            image : "https://images.stockx.com/images/Fear-of-God-Essentials-Sweatshort-SS22-Dark-Oatmeal.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Air Jordan Essentials Puffer Jacket",
+            price : "$80",
+            image : "https://images.stockx.com/images/Air-Jordan-Essentials-Puffer-Jacket-Black-Red.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Nike Storm Fit Windrunner Primaloft Puffer Jacket",
             price : "$85",
-            image : "https://images.stockx.com/images/adidas-Campus-00s-Grey-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Nike-Storm-Fit-Windrunner-Primaloft-Puffer-Jacket-Khaki-Light-Bone-Sail.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "New Balance 2002R",
-            price : "$120",
-            image : "https://images.stockx.com/images/New-Balance-M2002-Protection-Pack-Rain-Cloud-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "adidas Yeezy Boost 350 V2",
-            price : "$200",
-            image : "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Pure-Oat-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "adidas Yeezy Boost 350 V2",
-            price : "$200",
-            image : "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Onyx-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "New Balance 550",
+            productName : "BAPE Ape Head Graffiti Tee",
             price : "$80",
-            image : "https://images.stockx.com/images/New-Balance-550-White-University-Blue-Grey-Toe-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/BAPE-Ape-Head-Graffiti-Tee-White.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Vans Old Skool",
+            productName : "Denim Tears The Cotton Wreath Shorts",
+            price : "$50s",
+            image : "https://images.stockx.com/images/Denim-Tears-The-Cotton-Wreath-Shorts-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Jordan x A Ma Maniére T-shirt",
+            price : "$60",
+            image : "https://images.stockx.com/images/Jordan-x-A-Ma-Maniere-T-shirt-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Supreme Hanes Bones Thermal Pant",
+            price : "$50",
+            image : "https://images.stockx.com/images/Supreme-Hanes-Bones-Thermal-Pant-1-Pack-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
+        },
+        {
+            productName : "Kith x Disney Mickey & Friends Goofy Classic Logo Hoodie",
             price : "$40",
-            image : "https://images.stockx.com/images/Vans-Old-Skool-Black-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Kith-x-Disney-Mickey-Friends-Goofy-Classic-Logo-Hoodie-Stadium.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Vans Knu Skool",
-            price : "$65",
-            image : "https://images.stockx.com/images/Vans-Knu-Skool-Black-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Nike Therma-FIT Synthetic Reversible Bomber Jacket",
+            price : "$60",
+            image : "https://images.stockx.com/images/Nike-Therma-FIT-Synthetic-Phil-Reversible-Bomber-Jacket-Asia-Sizing-Black.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Converse Chuck Taylor All Star 70 Hi",
+            productName : "Nike FC Barcelona x The Rolling Stones 23/24 Jersey",
             price : "$100",
-            image : "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-70s-Hi-Comme-des-Garcons-PLAY-Black-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Nike-FC-Barcelona-x-The-Rolling-Stones-23-24-Jersey-Multicolor.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         },
         {
-            productName : "Converse Chuck Taylor All Star 70 Ox",
-            price : "$100",
-            image : "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-70-Ox-Comme-des-Garcons-PLAY-Multi-Heart-Black.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Anti Social Social Club Partly Cloudy T-shirt",
+            price : "$80",
+            image : "https://images.stockx.com/images/Anti-Social-Social-Club-Partly-Cloudy-T-shirt-Blue.jpg",
+            sizes : ["XS", "S", "M", "L", "XL", "2XL"]
         }
     ]
 }

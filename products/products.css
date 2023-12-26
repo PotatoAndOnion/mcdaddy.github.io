@@ -223,3 +223,44 @@ img {
 .card:hover{
     cursor: pointer;
 }
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    /* Add other styles as needed */
+}

@@ -4,7 +4,7 @@ let products = {
             productName : "Air Jordan 1",
             price : "$250",
             image : "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
             productName : "Air Jordan 1 Low",
@@ -206,10 +206,10 @@ function openModal(product) {
     purchaseButton.addEventListener("click", () => {
         const selectedSize = modalSizes.value;
         if (selectedSize) {
-            alert(`You've selected size ${selectedSize}. The purchase functionality is not implemented yet.`);
+            alert(`You've selected ${selectedSize} products. The purchase functionality is not implemented yet.`);
             closeModal();
         } else {
-            alert("Please select a size.");
+            alert("Please select a quantity.");
         }
     });
 
