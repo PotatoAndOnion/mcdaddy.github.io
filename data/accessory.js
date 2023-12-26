@@ -1,148 +1,124 @@
 let products = {
     data : [
         {
-            productName : "Air Jordan 1",
-            price : "$250",
-            image : "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg",
+            productName : "Nike Everyday Plus Cushioned Crew Socks",
+            price : "$25",
+            image : "https://images.stockx.com/images/Nike-Everyday-Plus-Cushioned-Crew-Socks-6-Pairs-White-Product.jpg",
             sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 1 Low",
-            price : "$850",
-            image : "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Reverse-Mocha_V2-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Nike x Drake Certified Lover Boy Socks",
+            price : "$35",
+            image : "https://images.stockx.com/images/Nike-x-Drake-Certified-Lover-Boy-Socks-Black-Product.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 3",
-            price : "$300",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/04/air-jordan-3-retro-fire-red-2022_ef39f60eefe9423e874a22c076cf4d86.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Nike x NOCTA Crew Socks",
+            price : "$30",
+            image : "https://images.stockx.com/images/Nike-x-NOCTA-Crew-Socks-3-Pairs-Asia-Sizing-Grey.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 4",
-            price : "$250",
-            image : "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "OFF-WHITE x Nike Socks",
+            price : "$25",
+            image : "https://images.stockx.com/images/OFF-WHITE-x-Nike-Socks-Grey-Orange.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 5",
-            price : "$220",
-            image : "https://images.stockx.com/images/Air-Jordan-5-Retro-Fire-Red-2013-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1607663937",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Nike Dunk Low",
-            price : "$80",
-            image : "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 7",
-            price : "$120",
-            image : "https://images.stockx.com/images/Air-Jordan-7-Retro-Pantone-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1607662998",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Kobe 6 Protro",
-            price : "$265",
-            image : "https://images.stockx.com/images/Nike-Kobe-6-Protro-Reverse-Grinch-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Nike Dunk Low",
-            price : "$190",
-            image : "https://images.stockx.com/images/Nike-Dunk-Low-Retro-PRM-Kyler-Murray-Be-1-of-One-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Crocs Classic",
+            productName : "New Era x Takashi Murakami Flower Beanie",
             price : "$90",
-            image : "https://images.stockx.com/images/Crocs-Classic-Clog-Lightning-McQueen-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/New-Era-x-Takashi-Murakami-Flower-Basic-Cuff-Knit-Beanie-Black.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 11",
-            price : "$177",
-            image : "https://images.stockx.com/images/Air-Jordan-11-Retro-Cherry-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1669100668",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Supreme New Era Box Logo Beanie",
+            price : "$60",
+            image : "https://images.stockx.com/images/Supreme-New-Era-Box-Logo-Beanie-FW23-Black.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 12",
-            price : "$150",
-            image : "https://images.stockx.com/360/Air-Jordan-12-Retro-Royalty-Taxi/Images/Air-Jordan-12-Retro-Royalty-Taxi/Lv2/img01.jpg?fm=jpg&auto=compress&w=480&dpr=2&updated_at=1635744340&h=320&q=60",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            productName : "Travis Scott x McDonald's Cj Arches Beanie",
+            price : "$50",
+            image : "https://images.stockx.com/images/Travis-Scott-x-McDonalds-Cj-Arches-Beanie-Brown.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Air Jordan 13",
-            price : "$175",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/08/Air-Jordan-13-Retro-Wolf-Grey-1.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Crocs Classic",
-            price : "$80",
-            image : "https://images.stockx.com/images/Crocs-Classic-Clog-DreamWorks-Shrek-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Air Jordan 15",
-            price : "$80",
-            image : "https://authentic-shoes.com/wp-content/uploads/2023/04/821518_01.jpg_ae1195c0ee9b40f691b69a8ef867b328.png",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "adidas Campus 00s",
-            price : "$85",
-            image : "https://images.stockx.com/images/adidas-Campus-00s-Grey-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "New Balance 2002R",
-            price : "$120",
-            image : "https://images.stockx.com/images/New-Balance-M2002-Protection-Pack-Rain-Cloud-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "adidas Yeezy Boost 350 V2",
-            price : "$200",
-            image : "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Pure-Oat-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "adidas Yeezy Boost 350 V2",
-            price : "$200",
-            image : "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Onyx-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "New Balance 550",
-            price : "$80",
-            image : "https://images.stockx.com/images/New-Balance-550-White-University-Blue-Grey-Toe-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Vans Old Skool",
-            price : "$40",
-            image : "https://images.stockx.com/images/Vans-Old-Skool-Black-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Vans Knu Skool",
-            price : "$65",
-            image : "https://images.stockx.com/images/Vans-Knu-Skool-Black-White-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
-        },
-        {
-            productName : "Converse Chuck Taylor All Star 70 Hi",
+            productName : "OVO Classic Owl Beanie",
             price : "$100",
-            image : "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-70s-Hi-Comme-des-Garcons-PLAY-Black-Product.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/OVO-Classic-Owl-Beanie-Black.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         },
         {
-            productName : "Converse Chuck Taylor All Star 70 Ox",
+            productName : "CREP PROTECT - STARTER PACK",
+            price : "$30",
+            image : "https://glab.vn/storage/products/2023/06/20/480x320/64916a5e39c4c.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT WIPES",
+            price : "$15",
+            image : "https://glab.vn/storage/products/2023/06/08/480x320/6481c47807e00.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT SUEDE & NUBUCK ERASER",
+            price : "$17",
+            image : "https://glab.vn/storage/products/2019/07/09/480x320/5d2468d5ce116.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT CURE REFILL (200ML)",
+            price : "$20",
+            image : "https://glab.vn/storage/products/2019/07/09/480x320/5d24690e71138.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT PILL",
+            price : "$18",
+            image : "https://glab.vn/storage/products/2019/07/09/480x320/5d246874c4ab6.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT SPRAY",
+            price : "$22",
+            image : "https://glab.vn/storage/products/2022/11/02/480x320/636260901e06d.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT CURE KIT",
+            price : "$25",
+            image : "https://glab.vn/storage/products/2020/08/05/480x320/5f2a879e76bf6.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "CREP PROTECT CRATES (2 PACK)",
+            price : "$50",
+            image : "https://glab.vn/storage/products/2020/08/26/480x320/5f460eed94dfb.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "Chinatown Market Globe Smiley Basketball",
             price : "$100",
-            image : "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-70-Ox-Comme-des-Garcons-PLAY-Multi-Heart-Black.jpg",
-            sizes : ["6", "7", "8", "9", "10", "11", "12", "13"]
+            image : "https://images.stockx.com/images/Chinatown-Market-Globe-Smiley-Basketball.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "Chinatown Market Smiley Basketball",
+            price : "$80",
+            image : "https://images.stockx.com/images/Chinatown-Market-Mini-Smiley-Basketball-Yellow.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "Chinatown Market x Puma Smiley Basketball",
+            price : "$90",
+            image : "https://images.stockx.com/images/Chinatown-Market-x-Puma-Smiley-Basketball.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        },
+        {
+            productName : "Chinatown Market Smiley Basketball",
+            price : "$80",
+            image : "https://images.stockx.com/images/Chinatown-Market-Smiley-Basketball-Red.jpg",
+            sizes : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         }
     ]
 }
