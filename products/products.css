@@ -264,3 +264,28 @@ footer {
     height: 30px;
     /* Add other styles as needed */
 }
+
+
+
+
+
+
+.original-price {
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.discounted-price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.discount-percentage {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    background-color: #f1c40f;
+    border-radius: 3px;
+}

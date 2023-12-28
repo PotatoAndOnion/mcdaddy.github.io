@@ -147,31 +147,36 @@ let products = {
     ]
 }
 
-for (let i of products.data) {
+for (const product of products.data) {
+    const card = document.createElement("div");
+    card.classList.add("card");
 
-    let card = document.createElement("div")
-    card.classList.add("card")
+    const imgContainer = document.createElement("div");
+    imgContainer.classList.add("image-container");
 
-    let imgContainer = document.createElement("div")
-    imgContainer.classList.add("image-container")
+    const image = document.createElement("img");
+    image.setAttribute("src", product.image);
+    imgContainer.appendChild(image);
+    card.appendChild(imgContainer);
 
-    let image = document.createElement("img")
-    image.setAttribute("src", i.image)
-    imgContainer.appendChild(image)
-    card.appendChild(imgContainer)
+    const container = document.createElement("div");
+    container.classList.add("card-container");
 
-    let container = document.createElement("div")
-    container.classList.add("card-container")
-
-    let name = document.createElement("h5");
+    const name = document.createElement("h5");
     name.classList.add("product-name");
-    name.innerText = i.productName.toUpperCase();
-    card-container.appendChild(name);
+    name.innerText = product.productName.toUpperCase();
+    container.appendChild(name);
 
-    let price = document.createElement("h6");
-    price.innerText =  i.price;
-    card-container.appendChild(price);
-  
+    const price = document.createElement("h6");
+    const originalPrice = parseInt(product.price.replace(/\$/g, ''));
+    const discountedPrice = Math.floor(originalPrice * 0.8); // Example: 20% discount
+    price.innerHTML = `
+        <span class="original-price">${product.price}</span>
+        <span class="discounted-price">${'$' + discountedPrice}</span>
+        <span class="discount-percentage">-20%</span>
+    `;
+    container.appendChild(price);
+
     card.appendChild(container);
     document.getElementById("products").appendChild(card);
 }
@@ -190,11 +195,18 @@ function openModal(product) {
 
     modalImage.src = product.image;
     modalName.textContent = product.productName;
-    modalPrice.textContent = product.price;
+    
+    // Calculate the discounted price
+    const originalPrice = parseFloat(product.price.substring(1));
+    const discount = 0.20; // Change this to your discount percentage
+    const discountedPrice = originalPrice * (1 - discount);
+
+    // Display the prices and discount percentage in the modal
+    modalPrice.innerHTML = `<span class="discounted-price">$${discountedPrice.toFixed(2)}</span> <span class="original-price">$${originalPrice.toFixed(2)}</span> (${(discount * 100).toFixed(0)}% off)`;
 
     // Clear previous options before adding new sizes
     modalSizes.innerHTML = '';
-    
+
     // Add size options to the dropdown
     product.sizes.forEach(size => {
         const option = document.createElement('option');
@@ -215,6 +227,7 @@ function openModal(product) {
 
     modal.style.display = "block";
 }
+
 
 
 // Function to close the modal
